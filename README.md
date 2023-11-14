@@ -18,8 +18,8 @@ To get started, pick one of the projects from the list and open a PR with your s
 
 | Name | Description |
 | --- | --- |
-| [chat](./chat) | A group chat client |
-| [chess](./chess) | A chess tournament app |
-| [functions](./functions) | A runtime and developer experience around executing code remotely |
+| [chat](./projects/chat) | A group chat client |
+| [chess](./projects/chess) | A chess tournament app |
+| [functions](./projects/functions) | A runtime and developer experience around executing code remotely |
 | community | A community relationship management solution integrated into Composer |
 | githunt | A tool for discovering and tracking relevant people and projects on GitHub |
