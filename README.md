@@ -20,3 +20,6 @@ To get started, pick one of the projects from the list and open a PR with your s
 | --- | --- |
 | [chat](./chat) | A group chat client |
 | [chess](./chess) | A chess tournament app |
+| [functions](./functions) | A runtime and developer experience around executing code remotely |
+| community | A community relationship management solution integrated into Composer |
+| githunt | A tool for discovering and tracking relevant people and projects on GitHub |
