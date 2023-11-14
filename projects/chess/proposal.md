@@ -2,13 +2,14 @@
 
 ## Discussion
 
+### High level design considerations
+The project should be very welcoming to extension. At a minimum, it should be straight-forward to implement new chess variants as an individual contributor. This suggests a certain level of modularity is required around the overall game structure as well as the rules for each variant.
+
 ### Modeling Games
 
 Event sourcing chess is a very appealing model here, we already have to store the list of moves, but if we introduce  time control, a list of moves is not enough, we need to know when moves are made. A chess game is two agents interacting over time through the constraints of the game. Representing games with an aggregate might allow the games to be more resilient to peer-peer shenanigans like a user playing multiple moves on multiple clients simultaneously. We can separate user intentions from the current synchronised state of the game.
 
-There shouldn't be any performance concerns deriving the current view from the selected move index and the move history, games don't typically eclipse 50-60 moves. If we're worried about performance still, we could compute the resulting FEN or PGN on each move making rendering the board for any move O(1).
-
-*Tentative events: 
+*Tentative events:
 
 - Game created (initial player + colour + time information + variant)
 - PlayerJoined (second player)
@@ -17,7 +18,7 @@ There shouldn't be any performance concerns deriving the current view from the s
 - Player Resigns
 - GameOver (win, loss, draw) + some metadata about how the game ended, checkmate? time out?
 
-Modeling games this way, allows the actions and controls to generalize over many different types of 2 player board games as well as chess variants. The aggregate can select from multiple rules engines when validating moves / generating the current state, and the view is free to present the game in the manner befitting the variant.
+Modeling games this way, allows the actions and controls to generalize over many different chess variants. The aggregate can select from multiple rules engines when validating moves / generating the current state, and the view is free to present the game in the manner befitting the variant.
 
 I'm very open to feedback and alternate methods of representation here!
 
