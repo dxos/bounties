@@ -26,6 +26,7 @@ To get started, pick one of the projects from the list and open a PR with your s
 | git-echo | A way to synchronize Git data with ECHO (collaborate on github issues together) |
 | presenter | Improvements to the presentation mode of Composer |
 | dxfs | A decentralized filesystem plugin for Composer |
+| mail | A way to synchronize email into ECHO and an API for sending batches of email |
 | notebook | A way to write and execute inline code in a notebook-like environment |
 | forms | A way to create and fill out structured forms and inputs in Composer |
 | publisher | A way to keep a statically generated website in sync with Composer |
