@@ -30,3 +30,6 @@ To get started, pick one of the projects from the list and open a PR with your s
 | notebook | A way to write and execute inline code in a notebook-like environment |
 | forms | A way to create and fill out structured forms and inputs in Composer |
 | publisher | A way to keep a statically generated website in sync with Composer |
+| composer-mobile | A "more native" mobile app for Composer |
+| composer-browser-extension | A browser extension for Composer scenarios: find anything in composer, store and file a website into Composer |
+| meetings | Video presence and voice calls in Composer. Automatic recordings, transcripts, intelligence. |
