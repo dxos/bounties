@@ -33,3 +33,5 @@ To get started, pick one of the projects from the list and open a PR with your s
 | composer-mobile | A "more native" mobile app for Composer |
 | composer-browser-extension | A browser extension for Composer scenarios: find anything in composer, store and file a website into Composer |
 | meetings | Video presence and voice calls in Composer. Automatic recordings, transcripts, intelligence. |
+| obsidian-plugin | A way to sync content between devices and users in Obsidian |
+| codepad | An instant shared code editor for spot collaboration or interviews (coderpad, hackpad, codeinterview clone) |
