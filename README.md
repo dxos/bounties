@@ -1,6 +1,6 @@
 # DXOS Bounty Program
 
-This repository collects the projects which are eligible for a bounty award from the DXOS team. 
+This repository collects the projects which are eligible for a bounty award from the DXOS team.
 
 These projects are important to the DXOS developer platform for decentralized, local-first, and privacy-preserving apps. The DXOS team will ensure that the projects are well-defined, and will provide close support and feedback as projects are delivered.
 
@@ -30,7 +30,7 @@ To get started, pick one of the projects from the list and open a PR with your s
 | notebook | A way to write and execute inline code in a notebook-like environment |
 | forms | A way to create and fill out structured forms and inputs in Composer |
 | publisher | A way to keep a statically generated website in sync with Composer |
-| composer-mobile | A "more native" mobile app for Composer |
+| [composer-mobile](./projects/composer-mobile) | A "more native" mobile app for Composer |
 | composer-browser-extension | A browser extension for Composer scenarios: find anything in composer, store and file a website into Composer |
 | meetings | Video presence and voice calls in Composer. Automatic recordings, transcripts, intelligence. |
 | obsidian-plugin | A way to sync content between devices and users in Obsidian |
