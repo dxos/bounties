@@ -6,6 +6,10 @@ A "more native" app experience for Composer. The goal will be to release three n
 
 - Use [Socket Supply Co](https://socketsupply.co/) to wrap existing Composer App.
 - Add support for [Universial Links](https://developer.apple.com/ios/universal-links/) so that documents from the web can be opened in the app.
+- Ensure that the following user workflows can be completed:
+  - Scan QR code with phone camera to accept invitation to connect to account
+  - Scan QR code with phone camera to accept invitation to join a shared space
+  - Data should persist after device is restarted
 - Research the release process so that future updates of the JS bundle do not need a full review.
 - Prepare for release to the recpective app stores, including app description and properly sized icons.
 - Submit the applications to the respective app stores for review and and address any issues that the reviewers bring up in the process.
