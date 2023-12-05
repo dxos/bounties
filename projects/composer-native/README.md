@@ -29,7 +29,7 @@ These are features that add features available on specific native platforms.
   - Routing might have to be adjusted in Composer to show these views based on a URL or URL parameter.
 - Add a global keyboard shortcut that will open Composer in a command pallette state.
   - A MVP version of this could be a local shortcut that opens when Composer is already open and in focus. SSC already has support for this.
-  - SSC does not currently have support for global shortcuts. We would have to find a way to add them ourselves, possibly working with the SSC team on this. [This library](https://github.com/soffes/HotKey) might give us a place to start. The best user experience might include a menubar helper application that launches at system boot that would listen for the shortcut.
+  - SSC does not have support for global shortcuts, so we would  add them ourselves using what SSC calls "native extensions." [This library](https://github.com/soffes/HotKey) might give us a place to start. The best user experience might include a menubar helper application that launches at system boot that would listen for the shortcut.
   - Ideally for user experience, this global shortcut could be user configured, in case that they have an existing global shortcut that conflicts with the default.
 
 ### Publish to app stores
