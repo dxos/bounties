@@ -19,9 +19,13 @@ A "more native" app experience for Composer. The goal will be to release three n
 We want to publish to the iOS App Store, the Mac App Store, and the Google Play Store. We will have to make sure the following goals are met for each app store:
 
 - Research the release process so that future updates of the JS bundle do not need a full review.
-- Prepare assets and content for release to the respective app stores: 
+- Prepare assets and content for release to the respective app stores:
   - App description
   - App metadata (Company, contact info, category)
   - Screenshots
   - Properly sized icons
 - Submit the applications to the respective app stores for review and and address any issues that the reviewers bring up in the process.
+
+## Meeting Notes
+
+- [2023-12-12 - Jess and Matt Meeting Notes](./2023-12-12-jess-matt-meeting-notes.md)
