@@ -29,27 +29,25 @@ Community Engagement and Extension: As a community member, I am interested in co
 ## Features
 
 ### Phase 1
-- [ ] Create a new package `apps/arena` using the app template
-- [ ] Import the existing chess plugin and get it displayed by default
-- [ ] Invites to games (pinless?)
-- [ ] Host on `arena.dxos.com/chess` (or similar domain)
-- [ ] Reuse composer layout (e.g., Spaces sidebar/navtree)
+- [x] Create chess component with the following capabilities
+  - [x] Time control
+  - [x] Turn indicators
+  - [x] In game history navigation (previous / next move)
+  - [x] Resign
+  - [x] Offer draw
+  - [x] Take back
+- [x] Sync game state via ECHO
 
 ### Phase 2
-
 - [ ] Basic lobby and user management
 - [ ] Basic game/space navigation
+- [ ] Invites to games (pinless?)
+- [ ] Game history
 
 ### Phase 3
-
+- [ ] Tournaments
 - [ ] Matchmaking (agent?)
-- [ ] Game history
 - [ ] Player stats?
-- [ ] In game capabilities
-  - [ ] Time control
-  - [ ] Turn indicators
-  - [ ] In game history navigation (previous / next move)
-  - [ ] Ability to resign, offer draw, takeback
-  - [ ] Premove?
 - [ ] Chess bots with agents?
+- [ ] Example variant implementation
 
